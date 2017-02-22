@@ -7,9 +7,11 @@ import java.util.List;
 
 public class Feed {
     public ArrayList<Item> items;
+
     public Feed(List<Item> items) {
         items = new ArrayList<>(items);
     }
+
     public ArrayList<Item> getItems() {
         return items;
     }
